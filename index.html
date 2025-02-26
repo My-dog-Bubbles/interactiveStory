@@ -1,46 +1,55 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 
-<html> 
+<html>  
 
-<head> 
+<head>  
+    <title>Space Cadets</title>  
+</head>  
 
-    <title>Space Cadets</title> 
+<body>  
 
-</head> 
-
-<body> 
-    <section id="storyFlow"> 
-        <h1 id="tittle">blah blah blah</h1> 
-        <p id="currentStoryLine">Your ship has just crashed and landed on a strange land;  
-            you have to hurry back to give recourse to your family back at home. 
-            Upon arrival of this new land the crew has already started to argue.  
-            The ship is in good enough for everyone to just lift off but  
-            Regina wants to explore the new land. The ship split between stay and  
-            just leaving or staying and explored the land for new courses.  
-            You have to act as the tie breaker for the crew. 
-        </p> 
-        <input type="text" id="yesORno"></input>
-        <!--Have to format these next to each other--> 
-        <img id="left">
-        <img id="right">
-
-        
-        <button id="inputButton"><h2>Next</h2></button> 
-    </section>
-    
-    <section>
-        <!--Button used for the hiding room part of the story-->
-        <button id="Engine room">Engine Room</button>
-        <button  id="Control room">Control Room</button>
-        <button  id="Storage room">Storage Room</button>
-        <button  id="Sleeping quarters">Sleeping Quarters</button>
-    </section>
-
-    <section id="userResult">  
-        <img id="imgResult"> 
-        <p id="outCome",id="next"></p> 
+    <section class="title"> 
+        <h1 id="name" class="name">blah blah blah</h1>  
     </section> 
-    <!-- Link html to game.js file --> 
+
+    
+    
+    <section class="storyFlow">  
+        <img src=".\crash.jpg" id="intro" class="intro"> 
+        <h3 id="scene" class="scene">Scene 1:</h3> 
+        <p id="currentStoryLine" class="story">Your ship has just crashed and landed on a strange land;   
+            you have to hurry back to give recourse to your family back at home.  
+            Upon arrival of this new land the crew has already started to argue.   
+            The ship is in good enough for everyone to just lift off but   
+            Regina wants to explore the new land. The ship split between stay and   
+            just leaving or staying and explored the land for new courses.   
+            You have to act as the tie breaker for the crew.  
+        </p>  
+
+        <section class="mainInteraction"> 
+            <p id="question"><strong>Yes/No:</strong></p> 
+            <button id="inputButton" class="inputButton"><h3>Click to Continue</h3></button>  
+            <input type="text" id="yesORno" class="inputField"></input> 
+        </section> 
+
+        <section class="subinteraction"> 
+            <!--Button used for the hiding room part of the story--> 
+            <button id="Engine room">Engine Room</button> 
+            <button  id="Control room">Control Room</button> 
+            <button  id="Storage room">Storage Room</button> 
+            <button  id="Sleeping quarters">Sleeping Quarters</button> 
+        </section> 
+
+        <section id="userResult" >   
+            <h3 class="storyResult">Option Result:</h3> 
+            <img src=".\forNow.jpg" id="imgResult" class="imgResult"> 
+            <p id="outCome" class="txtResult"></p>  
+        </section>  
+    </section>
+    <button id="helpButton">Need Help?</button> 
+    <p id="help" class="help"></p> 
+    <!-- Link html to game.js file -->  
     <script src="index.js"></script> 
-</body> 
+    <link rel="stylesheet" href="index.css"> 
+</body>  
 </html> 
