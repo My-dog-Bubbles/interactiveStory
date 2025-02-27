@@ -1,95 +1,204 @@
-body{ 
-    background-color:  rgba(168, 14, 14, 0.925); 
-} 
+body{  
 
-.scene{ 
-    margin-left: 3%; 
-} 
+    background-color:  rgba(168, 14, 14, 0.925);  
 
-.storyFlow{ 
-    background-color: rgba(230, 175, 26, 0.932); 
-    padding: 1%; 
-    margin:2%; 
-    border-radius: 5px; 
-} 
+}  
 
-.title{ 
-    background-size: auto; 
-    background-color: blanchedalmond; 
-    padding: 2%; 
-    border-radius: 5px; 
-    margin-top: 4%; 
-    margin-bottom: 2%; 
-    margin-left: 8%; 
-    margin-right: 8%; 
-} 
+ 
 
-.name{ 
-    text-align: center; 
-} 
+.scene{  
 
-.story{ 
-    background-color: blanchedalmond; 
-    padding: 2%; 
-    border-radius: 5px; 
-    margin-left: 10%; 
-    margin-right: 10%; 
-    margin-top: 1%; 
-    margin-bottom: 8%; 
-} 
+    margin-left: 3%;  
 
-.inputField{ 
-    padding:1%; 
-    float: left; 
-    overflow: hidden; 
-    margin-left: 3%; 
-} 
+}  
 
-.inputButton{ 
-    margin-left: 2%; 
-    cursor: pointer; 
-    overflow: hidden; 
-    background-color: white; 
-    border-radius: 5px; 
-} 
+ 
 
-.inputButton:hover{ 
-    background-color: brown; 
-} 
+.storyFlow{  
 
-/* .mainInteraction{ 
-    background-color: rgba(17, 17, 17, 0.651); 
-    padding:3.5%; 
-    border-radius: 5px; 
-    align-items: flex-start; 
-    align-items: center; 
-    align-items: flex-end; 
-} */ 
+    background-color: rgba(230, 175, 26, 0.932);  
 
-.storyResult{ 
-    margin-left: 2%; 
-    margin-bottom: 3%; 
-} 
+    padding: 1%;  
 
-.txtResult{ 
-    background-color: blanchedalmond; 
-    padding: 2%; 
-    border-radius: 5px; 
-    margin-left: 6%; 
-    margin-right: 6%; 
-    margin-bottom: 4%; 
-} 
+    margin:2%;  
 
-.help{ 
-    color: aliceblue; 
-    margin-left: 3%; 
-} 
+    border-radius: 5px;  
 
-.intro{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-color: aquamarine;
-    padding: 0.5%;
+}  
+
+ 
+
+.title{  
+
+    background-size: auto;  
+
+    background-color: blanchedalmond;  
+
+    padding: 2%;  
+
+    border-radius: 5px;  
+
+    margin-top: 4%;  
+
+    margin-bottom: 2%;  
+
+    margin-left: 8%;  
+
+    margin-right: 8%;  
+
+}  
+
+ 
+
+.name{  
+
+    text-align: center;  
+
+}  
+
+ 
+
+.story{  
+
+    background-color: blanchedalmond;  
+
+    padding: 2%;  
+
+    border-radius: 5px;  
+
+    margin-left: 10%;  
+
+    margin-right: 10%;  
+
+    margin-top: 1%;  
+
+    margin-bottom: 8%;  
+
+}  
+
+/* .decision{
+    align-items: center;
+    overflow: hidden;
+} */
+.leftImage{
+    margin-bottom: 10%;
+
 }
+.rightImage{
+    margin-bottom: 10%;
+}
+
+.inputField{  
+
+    padding:1%;  
+
+    float: left;  
+
+    overflow: hidden;  
+
+    margin-left: 3%;  
+
+}  
+
+ 
+
+.inputButton{  
+
+    margin-left: 2%;  
+
+    cursor: pointer;  
+
+    overflow: hidden;  
+
+    background-color: white;  
+
+    border-radius: 5px;  
+
+}  
+
+ 
+
+.inputButton:hover{  
+
+    background-color: brown;  
+
+}  
+
+ 
+
+/* .mainInteraction{  
+
+    background-color: rgba(17, 17, 17, 0.651);  
+
+    padding:3.5%;  
+
+    border-radius: 5px;  
+
+    align-items: flex-start;  
+
+    align-items: center;  
+
+    align-items: flex-end;  
+
+} */  
+
+ 
+.imgResult{
+    margin-left: 35%;
+}
+
+.storyResult{  
+
+    margin-left: 2%;  
+
+    margin-bottom: 3%;  
+
+}  
+
+ 
+
+.txtResult{  
+
+    background-color: blanchedalmond;  
+
+    padding: 2%;  
+
+    border-radius: 5px;  
+
+    margin-left: 6%;  
+
+    margin-right: 6%;  
+
+    margin-bottom: 4%;  
+
+}  
+
+ 
+
+.help{  
+
+    color: aliceblue;  
+
+    margin-left: 3%;  
+
+}  
+
+ 
+
+.intro{ 
+
+    display: block; 
+
+    margin-left: auto; 
+
+    margin-right: auto; 
+
+    width: 50%; 
+
+    background-color: aquamarine; 
+
+    padding: 0.5%; 
+
+} 
+
+ 

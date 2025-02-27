@@ -1,55 +1,110 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>   
 
-<html>  
+ 
 
-<head>  
-    <title>Space Cadets</title>  
-</head>  
+<html>   
 
-<body>  
+ 
 
-    <section class="title"> 
-        <h1 id="name" class="name">blah blah blah</h1>  
+<head>   
+
+    <title>Space Cadets</title>   
+
+</head>   
+
+ 
+
+<body>   
+
+ 
+
+    <section class="title">  
+
+        <h1 id="name" class="name">blah blah blah</h1>   
+
+    </section>  
+
+ 
+
+     
+
+     
+
+    <section class="storyFlow">   
+
+        <img src=".\crash.jpg" id="intro" class="intro">  
+        
+
+        <h3 id="scene" class="scene">Scene 1:</h3>  
+
+        <p id="currentStoryLine" class="story">Print: Your ship have just crashed 
+            and landed on a strange land. You need to hurry back to give resources 
+            to your family back at home. The ship is in good enough condition for 
+            lift off but Regina wants to explore the new land. The ship splits between 
+            leaving or staying and exploring the land for new materials. 
+            You are the tie breaker for the crew.
+
+        </p>   
+        <section class="decision">
+            <img src=".\fixShip.jpg" id="leftImage" class="leftImage" >
+            <img src=".\explore.jpg" id="rightImage" class="rightImage" > 
+        </section>
+        
+
+        <section class="mainInteraction">  
+
+            <p id="question"><strong>   Input:</strong></p>  
+
+            <button type="button" id="inputButton" class="inputButton"><h3>Click to Continue</h3></button>   
+
+            <button type="button" id="controlButton" class="inputButton"><h3>Click to Continue</h3></button> 
+
+            <input type="text" id="yesORno" class="inputField"></input>  
+
+        </section>  
+
+ 
+
+        <section class="subinteraction">  
+
+            <!--Button used for the hiding room part of the story-->  
+
+            <button type="button" id="Engine room">Engine Room</button>  
+
+            <button type="button" id="Control room">Control Room</button>  
+
+            <button type="button" id="Storage room">Storage Room</button>  
+
+            <button type="button" id="Sleeping quarters">Sleeping Quarters</button>  
+
+        </section>  
+
+ 
+
+        <section id="userResult" >    
+
+            <h3 class="storyResult">Option Result:</h3>  
+
+            <img src=".\forNow.jpg" id="imgResult" class="imgResult">  
+
+            <p id="outCome" class="txtResult"></p>   
+
+        </section>   
+
     </section> 
 
-    
-    
-    <section class="storyFlow">  
-        <img src=".\crash.jpg" id="intro" class="intro"> 
-        <h3 id="scene" class="scene">Scene 1:</h3> 
-        <p id="currentStoryLine" class="story">Your ship has just crashed and landed on a strange land;   
-            you have to hurry back to give recourse to your family back at home.  
-            Upon arrival of this new land the crew has already started to argue.   
-            The ship is in good enough for everyone to just lift off but   
-            Regina wants to explore the new land. The ship split between stay and   
-            just leaving or staying and explored the land for new courses.   
-            You have to act as the tie breaker for the crew.  
-        </p>  
+    <button type="button" id="helpButton">Need Help?</button>  
 
-        <section class="mainInteraction"> 
-            <p id="question"><strong>Yes/No:</strong></p> 
-            <button id="inputButton" class="inputButton"><h3>Click to Continue</h3></button>  
-            <input type="text" id="yesORno" class="inputField"></input> 
-        </section> 
+    <p id="help" class="help"></p>  
 
-        <section class="subinteraction"> 
-            <!--Button used for the hiding room part of the story--> 
-            <button id="Engine room">Engine Room</button> 
-            <button  id="Control room">Control Room</button> 
-            <button  id="Storage room">Storage Room</button> 
-            <button  id="Sleeping quarters">Sleeping Quarters</button> 
-        </section> 
+    <!-- Link html to game.js file -->   
 
-        <section id="userResult" >   
-            <h3 class="storyResult">Option Result:</h3> 
-            <img src=".\forNow.jpg" id="imgResult" class="imgResult"> 
-            <p id="outCome" class="txtResult"></p>  
-        </section>  
-    </section>
-    <button id="helpButton">Need Help?</button> 
-    <p id="help" class="help"></p> 
-    <!-- Link html to game.js file -->  
-    <script src="index.js"></script> 
-    <link rel="stylesheet" href="index.css"> 
-</body>  
+    <script src="index.js"></script>  
+
+    <link rel="stylesheet" href="index.css">  
+
+</body>   
+
 </html> 
+
+ 
