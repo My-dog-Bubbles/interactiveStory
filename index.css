@@ -1,6 +1,6 @@
 body{  
 
-    background-color:  rgba(168, 14, 14, 0.925);  
+    background-color:  rgb(15, 15, 78);  
 
 }  
 
@@ -16,7 +16,7 @@ body{
 
 .storyFlow{  
 
-    background-color: rgba(230, 175, 26, 0.932);  
+    background-color: rgb(115, 159, 209);  
 
     padding: 1%;  
 
@@ -32,7 +32,7 @@ body{
 
     background-size: auto;  
 
-    background-color: blanchedalmond;  
+    background-color: rgb(123, 228, 92);  
 
     padding: 2%;  
 
@@ -53,6 +53,7 @@ body{
 .name{  
 
     text-align: center;  
+    font-family:'Times New Roman', Times, serif;
 
 }  
 
@@ -60,7 +61,7 @@ body{
 
 .story{  
 
-    background-color: blanchedalmond;  
+    background-color: silver;  
 
     padding: 2%;  
 
@@ -159,7 +160,7 @@ body{
 
 .txtResult{  
 
-    background-color: blanchedalmond;  
+    background-color: silver;  
 
     padding: 2%;  
 

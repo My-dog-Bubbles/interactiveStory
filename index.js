@@ -511,7 +511,7 @@ submit.addEventListener('click', function runningInput(){
 
             // fixing layout based on what point in the story line the user is in   
 
-            document.getElementById("currentStoryLine").textContent = "You and the crew are playing cards when you hear a heavy knock. Gretchen says open the door because it is Regina; however, Damian suggested that it is too early for Regina to have returned and Damian refused to open the door because we are unsure what is out there. They both look back at you to be their tie breaker again."   
+            document.getElementById("currentStoryLine").textContent = "You and the crew are playing cards when you hear a heavy knock. Gretchen says open the door because it is Regina; however, Damian suggested that it is too early for Regina to have returned and Damian refused to open the door because we are unsure what is out there. They both look back at you to be their tie breaker again. (Yes/No)"   
 
             document.getElementById("outCome").textContent = ''   
 
@@ -571,7 +571,7 @@ submit.addEventListener('click', function runningInput(){
 
                     userInput.style.visibility = "hidden"  
 
-                    imgResult.src = "cards.jpg"
+                    imgResult.src = "acid.jpg"
                     imgResult.style.display = "block" 
 
                     //Hides the text that says input on the html to make sure the user does not get confused on when to enter something 
@@ -590,7 +590,7 @@ submit.addEventListener('click', function runningInput(){
 
                     document.getElementById("outCome").textContent = "You opened the door and Regina comes in to announce that outside is safe. Karen comes stumbling outside to greet Regina. As Karen is hugging Regina, her body starts to melt to Regina's touch. You want to run but, your body is frozen in shock. You breathe out as your body starts to melt into Regina's touch too.";   
 
-                 
+                    document.getElementById("name").textContent = "You Have Died"
 
                     // change the title to you have died to let the user know the game is over 
 
@@ -609,7 +609,8 @@ submit.addEventListener('click', function runningInput(){
                 if(y_n == "no" || y_n == "No" || y_n == "n" || y_n == "N"){  
 
 
-                     
+                    imgResult.src = "rooms.jpg"
+                    imgResult.style.display = "block" 
 
                      
 
@@ -665,7 +666,7 @@ submit.addEventListener('click', function runningInput(){
 
                         document.getElementById("scene").textContent = "Scene 4:"  
 
- 
+                        imgResult.style.display = "none" 
 
                         // hide the buttons so the user cannot click on it  
 
@@ -691,7 +692,8 @@ submit.addEventListener('click', function runningInput(){
 
                     controlRoom.addEventListener("click", function controls(){  
 
-                         
+                        imgResult.src = "code.jpg"
+                                
 
                         document.getElementById("scene").textContent = "Scene 4:"  
 
@@ -823,7 +825,10 @@ submit.addEventListener('click', function runningInput(){
 
  
 
-            storageRoom.addEventListener("click", function Storage(){  
+            storageRoom.addEventListener("click", function Storage(){ 
+                
+                
+                imgResult.style.display = "name" 
 
                 document.getElementById("name").textContent="You have died" 
                 document.getElementById("scene").textContent = "Scene 4:"  
@@ -848,7 +853,10 @@ submit.addEventListener('click', function runningInput(){
 
             });  
 
-            sleepingQuarters.addEventListener("click", function Bedroom(){  
+            sleepingQuarters.addEventListener("click", function Bedroom(){ 
+            
+                imgResult.style.display = "name"  
+
                 document.getElementById("name").textContent="Safe Ending" 
 
                 document.getElementById("scene").textContent = "Scene 4:"  
